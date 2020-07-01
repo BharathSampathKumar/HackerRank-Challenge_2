@@ -8,7 +8,7 @@ class App extends Component {
     const { employees } = this.props;
     return (
       <div className="App">
-        <EmployeesList employees={employees} />
+        <EmployeesList employees={employees}/>
       </div>
     );
   }
